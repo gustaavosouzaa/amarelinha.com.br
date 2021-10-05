@@ -894,26 +894,26 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .hero-section .hero-shape .shape.shape-1 {
+  .shape.shape-1 {
     top: -400px;
     right: -550px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .hero-section .hero-shape .shape.shape-1 {
+  .shape.shape-1 {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .hero-section .hero-shape .shape.shape-1 {
+  .shape.shape-1 {
     display: none;
 
   }
   
   .shape.shape-2{
-    display: none;
+    width: 90%;
   }
 }
 
