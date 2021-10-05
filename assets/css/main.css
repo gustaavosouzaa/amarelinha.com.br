@@ -852,8 +852,8 @@ p {
   height: 40px;
   border-radius: 50%;
   background: #fff;
-  border: 3px solid #5864FF;
-  color: #5864FF;
+  border: 3px solid #f6c327;
+  color: #f6c327;
   left: 15px;
   bottom: 0;
   z-index: 9;
@@ -908,6 +908,11 @@ p {
 
 @media (max-width: 767px) {
   .hero-section .hero-shape .shape.shape-1 {
+    display: none;
+
+  }
+  
+  .shape.shape-2{
     display: none;
   }
 }
